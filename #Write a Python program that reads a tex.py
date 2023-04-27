@@ -2,5 +2,11 @@
 print ("This program is created to separate even and odd numbers from 20 integers.")
 #read input file
 #create two lists
+#determine if odd or even
+for num in integers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
 #define even numbers
 #define odd numbers
