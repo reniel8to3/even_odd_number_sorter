@@ -2,6 +2,8 @@
 print ("This program is created to separate even and odd numbers from 20 integers.")
 #read input file
 #create two lists
+even_numbers = []
+odd_numbers = []
 #determine if odd or even
 for num in integers:
     if num % 2 == 0:
